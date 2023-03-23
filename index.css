@@ -89,11 +89,14 @@ html{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-radius: 30px;
 }
 .right-items>a:hover{
-    transition-duration: 0.4s;
+    transition-duration: 1s;
     color: var(--yellow-color);
+    background: linear-gradient(to left, rgb(93, 93, 107), rgb(235, 235, 206));
 }
+
 /* ============ for the underline efect ============= */
 
 /* .right-items>a::before{
